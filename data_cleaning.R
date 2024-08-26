@@ -83,5 +83,3 @@ aggr_db <- db %>%
 
 # Save data frame to a CSV file
 write.csv(aggr_db, file = "subte_23_24.csv", row.names = FALSE)
-
-
